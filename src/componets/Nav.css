@@ -1,0 +1,110 @@
+.nav{
+    display: flex;
+   background-color: rgb(52, 233, 173);
+    justify-content: space-between;
+    padding: .3rem 1rem;
+    /* border-radius: .4rem; */
+    padding-bottom: 1rem;
+} 
+.nav_bar{
+    display: flex;
+    width: 30%;
+    padding-left: 7rem;
+    gap: 1rem;
+justify-content: space-around;
+list-style: none;
+text-decoration: none;
+}
+.nav_bar li{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+  
+}
+
+ .logo {
+    /* width: 100%; */
+    font-size: 1.8rem;
+}
+.Skills{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    /* height: 40vh; */
+}
+
+.homepage{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 25% 67%;
+    /* flex-direction: row; */
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and  (min-width: 562px ){
+.Skills{
+    height: 40vh;
+}
+}
+@media screen and  (max-width: 562px ){
+    .homepage{
+        /* flex-direction: column; */
+        grid-template-columns: 95% ;
+    }
+    .Skills{
+        grid-template-columns: 95%;
+        /* height: 150vh; */
+    }
+    .nav{
+        display: grid;
+        /* margin-left: 1rem; */
+        grid-template-columns: 70% auto;
+    }
+    .nav_bar{
+        display: flex;
+        width: 80%;
+        gap: 15%;
+        /* justify-content: space-between; */
+    }}
+    
+/* @media screen and  (max-width: 441px){
+    .homepage{
+        /* flex-direction: column; */
+        /* grid-template-columns: 95% ;
+    }
+    .Skills{
+        grid-template-columns: 95%;
+        height: 200vh;
+    }
+    .nav{
+        display: grid;
+        /* margin-left: 1rem; */
+        /* grid-template-columns: 70% auto;
+    }
+    .nav_bar{
+        display: flex;
+        width: 80%;
+        gap: 15%;
+        /* justify-content: space-between; */
+    
+    
+    
+
+.skillp{
+    box-shadow: 2px 2px 2px 2px grey;
+    border: 2px solid rgb(15, 8, 8);
+
+    padding: 1rem;
+}
+.footer{
+   border: 2px solid grey;
+   padding: 1rem;
+   background-color: white;
+   display: flex;
+   /* text-align: center; */
+   justify-content: center;
+
+}

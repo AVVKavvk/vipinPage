@@ -1,0 +1,50 @@
+.school{
+    border: 2px soild  rgb(21, 12, 12);
+    display: grid;
+    grid-template-columns: 47% 47%;
+    /* gap: 5%; */
+    justify-content: space-around;
+}
+.prince{
+box-shadow: 10px 10px 10px 10px rgb(121, 115, 115);
+background-color: darkolivegreen;
+}
+.vps{
+    box-shadow: 10px 10px 10px 10px rgb(81, 88, 81);
+    
+   background-color: darkolivegreen;
+   
+   
+}
+.iiit{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    justify-content: space-around;
+ }
+ .iiit img{
+   width: 100%;
+   box-shadow: 10px 10px 10px 10px grey;
+ }
+  h1 a:hover{
+ text-decoration: underline;
+ }
+@media screen and (max-width:562px) {
+    .school{
+        grid-template-columns: 98%;
+        gap: 4%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+  .iiit{
+    grid-template-columns: 98%;
+    margin-top: 1rem;
+    gap: 3%;
+  }
+}
+h2{
+    margin-bottom: 1rem;
+    padding-top: .5rem ;
+}
+h1 a{
+    text-decoration: none;
+}
